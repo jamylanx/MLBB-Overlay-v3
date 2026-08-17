@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'myfonts';
+    src: url('Assets/Font/big_noodle_titling.ttf') format('truetype');
+
+  }
+
+  /* Menggunakan font di seluruh halaman */
+  body {
+    font-family: 'myfonts', sans-serif;
+
+    
+  }
+
+.scoreboard{
+    width: 1920px;
+    height: 1080px;
+    background-image: url(Assets/Other/scoreboard.png);
+}
+
+.upper{
+    width: 1920px;
+    height: 94px;
+    
+  
+    display: flex;
+}
+
+.lower{
+    width: 1920px;
+    height: 30px;
+
+    display: flex;
+}
+
+.mapbox{
+    width: 366px;
+    height: 100%;
+    
+}
+
+.teamname{
+    width: 616px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    color: #fff;
+
+    margin-top: -32px
+
+}
+
+.morelower{
+    width: 1920px;
+    height: 30px;
+    margin-top: 11px;
+   
+    display: flex;
+   
+}
+
+.morebox{
+    width: 822.5px;
+    height: 100%;
+    
+}
+
+.score{
+    width: 65.75px;
+    height: auto;
+    
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: -53px
+
+}
+
+.midmorebox{
+    width: 142.45px;
+    height: auto;
+  
+}
+
+.logo{
+    width: 110px;
+    height: 110px;
+  
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img{
+    width: 95px;
+    height: 95px;
+    object-fit: contain;
+}
+
+.uppermid{
+    width: 965px;
+    height: auto;
+   
+}
+
+.hide{
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+}
